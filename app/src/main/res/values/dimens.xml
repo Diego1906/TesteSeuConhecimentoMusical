@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_size_question_default">16sp</dimen>
+    <dimen name="font_size_answer_default">14sp</dimen>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_top_default">10dp</dimen>
+    <dimen name="margin_bottom_default">10dp</dimen>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Teste Seu Conhecimento Musical</string>
+    <string name="question_one">1º Qual é o nome do cantor da música \"O trem das 7\" ?</string>
+    <string name="question_two">2º Qual música é cantada pelo grupo \"Roupa Nova\" ?</string>
+    <string name="question_three">3º Quais músicas são do grupo \"O Rappa\" ?</string>
+    <string name="question_four">4º É verdade que a música \"Mais um vez\" foi composta pelo cantor \"Renato Russo\" ?</string>
+    <string name="question_five">5º É correto afirmar que nos anos de 1993 e 2017 a banda Guns N\' Roses foi a vencedora da premiação World Music Awards ?</string>
+    <string name="answer_question_one">Raul Seixas</string>
+    <string name="option_one_radio_button_question_two">Dona</string>
+    <string name="option_two_radio_button_question_two">Dona Maria</string>
+    <string name="option_one_check_box_question_three">Sentimento</string>
+    <string name="option_two_check_box_question_three">Andei só</string>
+    <string name="option_three_check_box_question_three">Homem Amarelo</string>
+    <string name="option_yes">Sim</string>
+    <string name="option_no">Não</string>
+    <string name="reset_button">reset</string>
+    <string name="validate_button">Validar Teste</string>
+    <string name="hint_answer_question_one">Resposta</string>
+</resources>

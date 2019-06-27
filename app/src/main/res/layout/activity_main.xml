@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutWidthAndHeightFormatDefault"
+    android:background="@color/yellow50"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_default"
+    tools:context=".MainActivity">
+
+    <ScrollView style="@style/LayoutWidthAndHeightFormatDefault">
+
+        <LinearLayout
+            style="@style/LayoutWidthAndHeightFormatDefault"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViewFormatDefault"
+                android:text="@string/question_one" />
+
+            <EditText
+                android:id="@+id/edit_text_question_one"
+                style="@style/LayoutWidthAndHeightFormatDefault"
+                android:hint="@string/hint_answer_question_one"
+                android:inputType="textCapWords"
+                android:textSize="@dimen/font_size_answer_default"
+                tools:text="@string/answer_question_one" />
+
+            <TextView
+                style="@style/TextViewFormatDefault"
+                android:layout_marginTop="@dimen/margin_top_default"
+                android:text="@string/question_two" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_question_two"
+                style="@style/RadioGroupFormatDefault">
+
+                <RadioButton
+                    android:id="@+id/radio_button_owner_question_two"
+                    style="@style/RadioButtonFormatDefault"
+                    android:text="@string/option_one_radio_button_question_two" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_owner_maria_question_two"
+                    style="@style/RadioButtonFormatDefault"
+                    android:text="@string/option_two_radio_button_question_two" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/TextViewFormatDefault"
+                android:layout_marginTop="@dimen/margin_top_default"
+                android:text="@string/question_three" />
+
+            <CheckBox
+                android:id="@+id/check_box_feeling_question_three"
+                style="@style/CheckBoxFormatDefault"
+                android:text="@string/option_one_check_box_question_three" />
+
+            <CheckBox
+                android:id="@+id/check_box_i_walked_alone_question_three"
+                style="@style/CheckBoxFormatDefault"
+                android:text="@string/option_two_check_box_question_three" />
+
+            <CheckBox
+                android:id="@+id/check_box_yellow_man_question_three"
+                style="@style/CheckBoxFormatDefault"
+                android:text="@string/option_three_check_box_question_three" />
+
+            <TextView
+                style="@style/TextViewFormatDefault"
+                android:layout_marginTop="@dimen/margin_top_default"
+                android:text="@string/question_four" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_question_four"
+                style="@style/RadioGroupFormatDefault">
+
+                <RadioButton
+                    android:id="@+id/radio_button_yes_question_four"
+                    style="@style/RadioButtonFormatDefault"
+                    android:text="@string/option_yes" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_no_question_four"
+                    style="@style/RadioButtonFormatDefault"
+                    android:text="@string/option_no" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/TextViewFormatDefault"
+                android:layout_marginTop="@dimen/margin_top_default"
+                android:text="@string/question_five" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_question_five"
+                style="@style/RadioGroupFormatDefault">
+
+                <RadioButton
+                    android:id="@+id/radio_button_yes_question_five"
+                    style="@style/RadioButtonFormatDefault"
+                    android:text="@string/option_yes" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_no_question_five"
+                    style="@style/RadioButtonFormatDefault"
+                    android:text="@string/option_no" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                style="@style/LayoutWidthAndHeightFormatDefault"
+                android:layout_marginTop="@dimen/margin_top_default"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/reset_button"
+                    style="@style/ButtonFormatDefault"
+                    android:onClick="reset"
+                    android:text="@string/reset_button" />
+
+                <Button
+                    android:id="@+id/validate_button"
+                    style="@style/ButtonFormatDefault"
+                    android:onClick="validateTest"
+                    android:text="@string/validate_button" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+
